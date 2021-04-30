@@ -13,7 +13,7 @@ The TivaWare graphics library provides drawing primitives, text rendering, widge
 
 First, see [Nokia5110.h](lib/Nokia5110.h) for details on how you should connect your pins.
 
-The [lib](libs/) directory contains the Nokia 5110 TivaWare graphics driver files along with the display driver files taken from the page above.
+The [lib](lib/) directory contains the Nokia 5110 TivaWare graphics driver files along with the display driver files taken from the page above.
 
 To use, include the `Nokia5110_graphics.h` header file and pass a pointer to the `Nokia5110_driver` tDisplay variable
 provided by the header to the TivaWare's `GrContextInit` function. You also need to call the `Nokia5110_Init` function exported from `Nokia5110.h`:

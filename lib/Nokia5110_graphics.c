@@ -48,10 +48,8 @@ static void rectFill(void *pvDisplayData, const tRectangle *psRect, uint32_t ui3
     }
 }
 
-#define THRESHOLD 0x7FFFFF
-
 static uint32_t colorTranslate(void *pvDisplayData, uint32_t ui32Value) {
-    return (uint32_t)(ui32Value < THRESHOLD);
+    return (uint32_t)(ui32Value == 0);
 }
 
 static void flush(void *pvDisplayData) {

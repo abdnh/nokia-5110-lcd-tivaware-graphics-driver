@@ -41,3 +41,4 @@ I intend to add more demos as I learn more about the launchpad and TivaWare.
 ## References
 
 - [TivaWare Graphics Library User's Guide](https://www.ti.com/lit/pdf/SPMU300E)
+- [Guide for developing display drivers for use with the TivaWare graphics library](https://www.ti.com/lit/pdf/SPMA055)
